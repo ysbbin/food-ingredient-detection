@@ -1,0 +1,42 @@
+names:
+- bab
+- baechu
+- bean_sprouts
+- beef
+- bread
+- cabbage
+- carrot
+- chicken
+- cucumber
+- cut_mackerel
+- dubu
+- eggplant
+- eggs
+- fishcake
+- garlic
+- garlic_clove
+- ginger
+- kimchi
+- leek
+- mackerel
+- onion
+- paprika
+- peeled_shrimp
+- perilla
+- pork
+- potato
+- radish
+- shrimp
+- squash
+- squid
+- sweet_potato
+nc: 31
+roboflow:
+  license: CC BY 4.0
+  project: food-ingredients-7txer
+  url: https://universe.roboflow.com/yolov5-rznzw/food-ingredients-7txer/dataset/5
+  version: 5
+  workspace: yolov5-rznzw
+test: ../food_data_3/test/images
+train: ../food_data_3/train/images
+val: ../food_data_3/valid/images
